@@ -8,18 +8,14 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center p-8 bg-white shadow-xl rounded-2xl max-w-md w-full">
-        <h1 className="text-4xl font-bold mb-4 text-zephyrix-blue">
-          Zephyrix API
-        </h1>
-        <p className="mb-6 text-gray-600">
-          Unlock the power of seamless API integration
-        </p>
+      <div className="text-center p-6 bg-white shadow-md rounded-lg">
+        <h1 className="text-3xl font-bold mb-4">Welcome to Zephyrix!</h1>
+        <p className="mb-6 text-gray-600">Explore our powerful API documentation</p>
         <Link 
           href="/docs" 
-          className="btn-primary"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
         >
-          Explore Docs
+          Go to Docs
         </Link>
       </div>
     </div>
